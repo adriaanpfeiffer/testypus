@@ -1,0 +1,7 @@
+
+testlib/obj/Debug/netcoreapp2.1/testlib.AssemblyInfoInputs.cache
+testlib/obj/Debug/netcoreapp2.1/testlib.assets.cache
+testlib/obj/Debug/netcoreapp2.1/testlib.csproj.CoreCompileInputs.cache
+*.cache
+*.dll
+*.pdb
