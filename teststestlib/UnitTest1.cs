@@ -6,12 +6,12 @@ namespace teststestlib
     public class UnitTest1
     {
         [Theory]
-        [InlineData(10)]
-        [InlineData(12)]
-        [InlineData(8)]
-        public void Test1(int value)
+        [InlineData(10, true)]
+        [InlineData(12, false)]
+        [InlineData(8, true)]
+        public void Test1(int value, bool expected)
         {
-            Assert.True(value < 11);
+            Assert.Equal(expected, value < 11);
         }
     }
 }
