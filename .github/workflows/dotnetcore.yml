@@ -2,9 +2,9 @@ name: .NET Core
 
 on: 
   push:
-  schedule:
+  #schedule:
   # specifiy that the job should be scheduled each 5 minutes
-    - cron: "0 0 * * *" 
+  #  - cron: "0 0 * * *" 
 
 jobs:
   build:
